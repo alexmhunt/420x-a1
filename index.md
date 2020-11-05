@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## CS/IMGD 420x: Assignment 1
+
+
 
 You can use the [editor on GitHub](https://github.com/alexmhunt/420x-a1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
