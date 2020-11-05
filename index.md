@@ -1,4 +1,4 @@
-## CS/IMGD 420x: Assignment 1
+## CS/IMGD 420x: Assignment 2
 
 [Video (on Youtube)](https://youtu.be/igcMmIat9TU)
 
