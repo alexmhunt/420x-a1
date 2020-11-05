@@ -1,39 +1,7 @@
 ## CS/IMGD 420x: Assignment 1
 
+[Video (on Youtube)](https://youtu.be/igcMmIat9TU)
 
+For this assignment, I made a ~1 minute long animation of a dancing, rounded cube using The Force. Aesthetically, my main inspiration was music: as I was experimenting with The Force and shaping functions, I was listening to Perturbator, a synthwave musician. His song [Miami Disco] (https://youtu.be/xAM6mG6BWjw) from the Hotline Miami OST inspired me to go with a Hotline Miami, 1980s-esque color scheme full of bright blues, purples, and neon pinks. My vision was to have a single square in the center that seems to dance to the beat, expanding, contracting, and emitting waves of color. That way, I could stick to simple shapes while still being able to play with color and animation. 
 
-You can use the [editor on GitHub](https://github.com/alexmhunt/420x-a1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alexmhunt/420x-a1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Technically, I found myself drawn to the idea of distance mapping, as it allowed me to create multiple outlines of a single shape with a hollow center. I started out with a hollow square made using a simple distance map and smoothstep(), then attached the square’s bounds to time to allow the shape to expand and contract with the passage of time. I also created a distance map with several outlines for the animation’s second stage, and then used rotate() to map the canvas’s rotated coordinates to the amount of red in the render. This resulted in a pulsing square in the center that emitted spirals of blue and pink, which I was quite happy with.
